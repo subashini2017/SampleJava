@@ -6,6 +6,10 @@ package exercise;
 public class OopsJava {
     public static void main(String[] args){
         System.out.println("hello world");
+        OopsJava newobj= new OopsJava();
+        newobj.testMEth();
     }
-
+    public void testMEth(){
+        System.out.println("version control");
+    }
 }
